@@ -7,5 +7,17 @@ pipeline {
       }
     }
 
+    stage('recuperation TXT') {
+      steps {
+        echo 'recuperation txt'
+      }
+    }
+
+    stage('Generateur HTML') {
+      steps {
+        echo 'generer html'
+      }
+    }
+
   }
 }
