@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('gestion d\'acces') {
+      steps {
+        echo 'gestion d\'acces'
+      }
+    }
+
   }
 }
